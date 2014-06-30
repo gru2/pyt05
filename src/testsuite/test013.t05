@@ -1,0 +1,9 @@
+
+$bar = { y | y + 3; };
+$foo = { x | if true (bar x) 1; };
+
+$z = foo(5);
+
+if (z != 8) abort;
+
+z;

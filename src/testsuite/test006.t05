@@ -1,0 +1,5 @@
+
+$x = Object.new;
+$x.y = 57;
+
+if (x.y != 57) abort;

@@ -1,0 +1,10 @@
+
+$x = Object.new;
+
+x["pera"] = 33;
+
+$z = x["pera"];
+
+if z != 33   abort;
+
+x;

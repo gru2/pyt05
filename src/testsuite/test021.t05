@@ -1,0 +1,20 @@
+
+
+$finc = { x | x + 1; };
+$fdec = { x | x - 1; };
+
+$f;
+
+if 1 == 1
+{
+    updateSlot "f" (getSlot "finc");
+}
+{
+    updateSlot "f" (getSlot "fdec");
+};
+
+$r = f 10;
+
+if r != 11 abort;
+
+r;

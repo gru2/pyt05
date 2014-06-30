@@ -1,0 +1,10 @@
+
+
+if (false) abort;
+
+$x = 3;
+
+if (true) {x = 4;};
+
+if (x != 4) abort;
+

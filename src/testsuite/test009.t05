@@ -1,0 +1,16 @@
+
+$x = 0;
+$s = 0;
+
+while (x < 5) {
+    x = x + 1;
+    if (x < 3) { continue; };
+    s = s + x;
+};
+
+if (s != 12) abort; 
+
+
+// 1 2 3 4 5
+
+s;

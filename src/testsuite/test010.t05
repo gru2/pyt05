@@ -1,0 +1,9 @@
+
+
+$fact = { x | if   x > 1   x * (fact x - 1)   1; };
+
+$z = fact(5);
+
+if (z != 5 * 4 * 3 * 2) abort; 
+
+z;

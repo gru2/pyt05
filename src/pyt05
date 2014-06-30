@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./t05_main.py $*
+

@@ -1,0 +1,11 @@
+
+$x = 0;
+
+$bar = { x | x + 1; };
+$foo = { x | if true (bar x) 1; };
+
+$z = foo 6;
+
+if (z != 7) abort; 
+
+z;

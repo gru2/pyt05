@@ -1,0 +1,6 @@
+
+$x = 3;
+
+if (x > 3) abort;
+
+if (3 > x) abort;
